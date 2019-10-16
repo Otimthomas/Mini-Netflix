@@ -10,24 +10,25 @@ export class MovieListComponent implements OnInit {
 			{
 				image: 'assets/movies/terminator.jpg',
 				title: 'The Avengers',
-				year: 2015
+				description: 'some text heres',
+				rated: 4,
+				released: 2019,
+				runtime: 250,
+				genre: 'Action',
+				director: 'Simon Peter',
+				writer: 'Writer Man',
+				actors: [
+					'simon',
+					'simon',
+					'simon'
+				],
+				plot: '',
+				language: 'English',
+				country: 'Uganda',
+				awards: 'People\'s choice',
+				link: 'www.youtube.com/trailer' 
 			},
-			{
-				image: 'assets/movies/terminator.jpg',
-				title: 'The Avengers',
-				year: 2015,
-			},
-			{
-				image: 'assets/movies/terminator.jpg',
-				title: 'The Avengers',
-				year: 2015
-			},
-			{
-				image: 'assets/movies/terminator.jpg',
-				title: 'The Avengers',
-				year: 2015
-			}
-		]
+	]
 
   constructor() { }
 
