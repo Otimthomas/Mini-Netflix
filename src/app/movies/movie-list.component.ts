@@ -6,6 +6,28 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movie-list.component.css']
 })
 export class MovieListComponent implements OnInit {
+	movies: any = [
+			{
+				image: 'assets/movies/terminator.jpg',
+				title: 'The Avengers',
+				year: 2015
+			},
+			{
+				image: 'assets/movies/terminator.jpg',
+				title: 'The Avengers',
+				year: 2015,
+			},
+			{
+				image: 'assets/movies/terminator.jpg',
+				title: 'The Avengers',
+				year: 2015
+			},
+			{
+				image: 'assets/movies/terminator.jpg',
+				title: 'The Avengers',
+				year: 2015
+			}
+		]
 
   constructor() { }
 
