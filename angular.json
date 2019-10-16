@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mini-netfix": {
+    "mini-netflix": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mini-netfix",
+            "outputPath": "dist/mini-netflix",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mini-netfix:build"
+            "browserTarget": "mini-netflix:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mini-netfix:build:production"
+              "browserTarget": "mini-netflix:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mini-netfix:build"
+            "browserTarget": "mini-netflix:build"
           }
         },
         "test": {
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mini-netfix:serve"
+            "devServerTarget": "mini-netflix:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mini-netfix:serve:production"
+              "devServerTarget": "mini-netflix:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "mini-netfix"
+  "defaultProject": "mini-netflix"
 }
