@@ -1,12 +1,19 @@
-<bs-navbar></bs-navbar>
-<div class="container-fluid">
-  <main class="row">
-    <div class="col-md-6">
-      <!-- You have to render the component using router-outlet only or else the component will be rendered
-      together with the router-outlet component and we would not achieved the desired result -->
-      <!-- <app-movie-list></app-movie-list> -->
-    </div>
-    <div class="col.md-4"></div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+</head>
+
+<body>
+  <bs-navbar></bs-navbar>
+  <main role="main" class="container">
+    <router-outlet></router-outlet>
   </main>
-  <router-outlet></router-outlet>
-</div>
+</body>
+
+</html>

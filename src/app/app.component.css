@@ -1,0 +1,7 @@
+body {
+  background: url('../assets/movies/netflixw.jpg')
+}
+
+input:focus {
+  outline: none;
+}
