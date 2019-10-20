@@ -2,6 +2,7 @@
   /* margin-top: 80px;
   width: 500px; */
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .signup {
@@ -22,11 +23,14 @@ input {
 }
 
 input:focus {
-  background-color: rgba(56, 56, 56, 0.5);
-  border: none;
-  outline: 0 !important;
+  border: 1px solid orange;
+  outline: 0;
 }
 
+.alert {
+  color: rgba(243, 141, 7, 0.5);
+  font-weight: bold;
+}
 
 form p,
 h1 {
@@ -46,6 +50,10 @@ button {
   margin-top: 30px;
   margin-bottom: 10px;
   min-height: 50px;
+}
+
+button:hover {
+  background-color: rgb(247, 6, 6)
 }
 
 form a {
