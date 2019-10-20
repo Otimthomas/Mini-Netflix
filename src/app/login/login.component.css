@@ -1,12 +1,13 @@
-.container {
+.signin-form {
+  /* margin-top: 80px;
+  width: 500px; */
   margin-top: 80px;
-  width: 500px;
 }
 
 .signin {
-  min-height: 500px;
+  margin: 0 auto;
+  width: 500px;
   padding: 80px 60px;
-  margin: 10px auto;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
 }
@@ -20,10 +21,10 @@ input {
   border: none;
 }
 
-:focus {
+input:focus {
   background-color: rgba(56, 56, 56, 0.5);
   border: none;
-  outline: none;
+  outline: 0 !important;
 }
 
 

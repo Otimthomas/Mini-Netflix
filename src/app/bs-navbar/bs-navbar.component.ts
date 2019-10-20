@@ -13,4 +13,8 @@ export class BsNavbarComponent implements OnInit {
   logout() {
     console.log("You have logged out");
   }
+
+  handleQuery(value) {
+    console.log(value.query.toLowerCase());
+  }
 }
